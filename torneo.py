@@ -11,7 +11,6 @@ class TorneoFutbol:
         
         # Mapa (Diccionario) para relacionar jugador con su equipo respectivo
         self.jugador_a_equipo = {}
-
     def registrar_equipo(self, nombre_equipo):
         if nombre_equipo in self.equipos:
             print(f"El equipo '{nombre_equipo}' ya está registrado.")
@@ -64,6 +63,10 @@ if __name__ == "__main__":
     # 1. Registrar equipos
     torneo.registrar_equipo("Barcelona FC")
     torneo.registrar_equipo("Real Madrid")
+    torneo.registrar_equipo("Manchester United")
+    torneo.registrar_equipo("Inter de Milan")
+
+
     
     # 2. Registrar jugadores
     torneo.registrar_jugador("Barcelona FC", "Moscoso Roddy")
@@ -72,14 +75,26 @@ if __name__ == "__main__":
     torneo.registrar_jugador("Barcelona FC", "Snaider Castillo")
     torneo.registrar_jugador("Barcelona FC", "Corozo Juan")
     torneo.registrar_jugador("Barcelona FC", "Messi Leonel")
-    torneo.registrar_jugador("Barcelona FC", "Lamine Yamal")
-    torneo.registrar_jugador("Barcelona FC", "Leones Jorge")
-    torneo.registrar_jugador("Barcelona FC", "Matinez Jefferson")
-    torneo.registrar_jugador("Barcelona FC", "Moscoso Stalin")
-    torneo.registrar_jugador("Barcelona FC", "Garcia Erick")
-    torneo.registrar_jugador("Barcelona FC", "Sedamanos Franklin")
     torneo.registrar_jugador("Real Madrid", "Rosa Reyes")
+    torneo.registrar_jugador("Real Madrid", "Adrian Mendoza")
+    torneo.registrar_jugador("Real Madrid", "Benjamin Mendoza")
+    torneo.registrar_jugador("Real Madrid", "Carrillo Miguel")
+    torneo.registrar_jugador("Real Madrid", "Thiago Vera")
+    torneo.registrar_jugador("Real Madrid", "Avila Teodoro")
+    torneo.registrar_jugador("Manchester United", "Fidel Vera")
+    torneo.registrar_jugador("Manchester United", "Lamine Yamal")
+    torneo.registrar_jugador("Manchester United", "Leones Jorge")
+    torneo.registrar_jugador("Manchester United", "Matinez Jefferson")
+    torneo.registrar_jugador("Manchester United", "Moscoso Stalin")
+    torneo.registrar_jugador("Manchester United", "Garcia Erick")
+    torneo.registrar_jugador("Inter de Milan", "Sedamanos Franklin")
+    torneo.registrar_jugador("Inter de Milan", "Garcia Grace")
+    torneo.registrar_jugador("Inter de Milan", "Mendoza Jefferson")
+    torneo.registrar_jugador("Inter de Milan", "Thiago Carrillo")
+    torneo.registrar_jugador("Inter de Milan", "Jorge Velazcon")
     
+
+
     # 3. Mostrar reporte (Reportería)
     torneo.mostrar_reporte()
 
