@@ -68,6 +68,16 @@ if __name__ == "__main__":
     # 2. Registrar jugadores
     torneo.registrar_jugador("Barcelona FC", "Moscoso Roddy")
     torneo.registrar_jugador("Barcelona FC", "David Gómez")
+    torneo.registrar_jugador("Barcelona FC", "Perez Jorge")
+    torneo.registrar_jugador("Barcelona FC", "Snaider Castillo")
+    torneo.registrar_jugador("Barcelona FC", "Corozo Juan")
+    torneo.registrar_jugador("Barcelona FC", "Messi Leonel")
+    torneo.registrar_jugador("Barcelona FC", "Lamine Yamal")
+    torneo.registrar_jugador("Barcelona FC", "Leones Jorge")
+    torneo.registrar_jugador("Barcelona FC", "Matinez Jefferson")
+    torneo.registrar_jugador("Barcelona FC", "Moscoso Stalin")
+    torneo.registrar_jugador("Barcelona FC", "Garcia Erick")
+    torneo.registrar_jugador("Barcelona FC", "Sedamanos Franklin")
     torneo.registrar_jugador("Real Madrid", "Rosa Reyes")
     
     # 3. Mostrar reporte (Reportería)
